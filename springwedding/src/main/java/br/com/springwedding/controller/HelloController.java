@@ -19,7 +19,7 @@ public class HelloController {
 	@RequestMapping("/sayHelloWorld")
 	public String sayHello(Model model,String nome){
 		model.addAttribute("nome",nome);
-		return "helloRepo123";
+		return "helloRepoTeste";
 	}
 
 	public String getNome() {
