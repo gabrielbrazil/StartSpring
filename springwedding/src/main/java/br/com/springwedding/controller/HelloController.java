@@ -19,7 +19,7 @@ public class HelloController {
 	@RequestMapping("/sayHelloWorld")
 	public String sayHello(Model model,String nome){
 		model.addAttribute("nome",nome);
-		return "changedRebase1223";
+		return "rebase";
 	}
 
 	public String getNome() {
